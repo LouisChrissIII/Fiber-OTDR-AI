@@ -1,0 +1,31 @@
+Fiber-OTDR-AI/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+├── requirements.txt
+│
+├── docs/
+│   ├── OTDR_Basics.md
+│   ├── Fiber_Loss.md
+│   ├── Testing_Procedures.md
+│   └── Troubleshooting.md
+│
+├── data/
+│   ├── sample_traces/
+│   └── reports/
+│
+├── src/
+│   ├── trace_parser.py
+│   ├── loss_calculator.py
+│   ├── event_detector.py
+│   └── report_generator.py
+│
+├── notebooks/
+│   └── OTDR_AI_Analysis.ipynb
+│
+├── tests/
+│   └── test_loss_calculator.py
+│
+└── images/
+    └── architecture.png
